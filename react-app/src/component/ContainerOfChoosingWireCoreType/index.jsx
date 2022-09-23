@@ -1,9 +1,17 @@
 import React from "react";
 import componentStyle from "./index.module.css";
 
-class ContainerOfChoosingWireCoreType extends React.Component {
+export default class ContainerOfChoosingWireCoreType extends React.Component {
   render() {
-    return <div></div>;
+    return (
+      <div className={componentStyle["container"]}>
+        <div
+          className={`${componentStyle["single-core"]} ${componentStyle["core-type"]}`}
+        ></div>
+        <div
+          className={`${componentStyle["double-core"]} ${componentStyle["core-type"]}`}
+        ></div>
+      </div>
+    );
   }
 }
-export default ContainerOfChoosingWireCoreType;

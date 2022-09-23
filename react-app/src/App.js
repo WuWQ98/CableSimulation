@@ -1,12 +1,12 @@
 import "./App.css";
-import Title from "./component/Title";
-import ContainerOfChoosingWireCoreType from "./component/ContainerOfChoosingWireCoreType";
+import FirstPage from "./component/FirstPage";
+import SecondPage from "./component/SecondPage";
 
 function App() {
   return (
     <div className="App">
-      <Title />
-      <ContainerOfChoosingWireCoreType />
+      <FirstPage />
+      <SecondPage />
     </div>
   );
 }

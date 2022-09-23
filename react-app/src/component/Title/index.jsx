@@ -1,7 +1,7 @@
 import React from "react";
 import componentStyle from "./index.module.css";
 
-class Title extends React.Component {
+export default class Title extends React.Component {
   render() {
     return (
       <div className={componentStyle["heading-primary"]}>
@@ -33,5 +33,3 @@ class Title extends React.Component {
     );
   }
 }
-
-export default Title;
