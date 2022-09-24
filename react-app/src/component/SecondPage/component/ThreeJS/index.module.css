@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  margin-top: 10px;
+  height: calc(50% - 10px);
+  height: -moz-calc(50% - 10px);
+  height: -webkit-calc(50% - 10px);
+  width: 100%;
+}
+
+.threeJS-viewer {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.threeJS-guiController {
+  position: absolute;
+  right: 0;
+  width: calc(30% - 10px);
+  height: 60%;
+}

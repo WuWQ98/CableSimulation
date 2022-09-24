@@ -1,6 +1,6 @@
 import React from "react";
-import ContainerOfChoosingWireCoreType from "../ContainerOfChoosingWireCoreType";
-import Title from "../Title";
+import WireTypeChoosing from "./component/WireTypeChoosing";
+import Title from "./component/Title";
 import componentStyle from "./index.module.css";
 
 export default class FirstPage extends React.Component {
@@ -8,7 +8,7 @@ export default class FirstPage extends React.Component {
     return (
       <div className={componentStyle.container}>
         <Title />
-        <ContainerOfChoosingWireCoreType />
+        <WireTypeChoosing />
       </div>
     );
   }
