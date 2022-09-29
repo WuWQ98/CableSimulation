@@ -5,19 +5,9 @@
   top: 30%;
   left: 50%;
   transform: translate(-50%, 0);
-  background-color: rgba(0, 240, 112, 0.3);
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
   padding: 10px;
-}
-
-.single-core {
-}
-
-.double-core {
-}
-
-.core-type {
-  background-color: rgba(146, 41, 244, 0.4);
+  visibility: hidden;
 }

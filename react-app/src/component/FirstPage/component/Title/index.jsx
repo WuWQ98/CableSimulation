@@ -4,7 +4,10 @@ import componentStyle from "./index.module.css";
 export default class Title extends React.Component {
   render() {
     return (
-      <div className={componentStyle["heading-primary"]}>
+      <div
+        className={componentStyle["heading-primary"]}
+        style={{ top: this.props.showNext ? "5%" : "40%" }}
+      >
         <h2>
           <span>线</span>
           <span>缆</span>
@@ -29,7 +32,13 @@ export default class Title extends React.Component {
           <span>软</span>
           <span>件</span>
         </h2>
-        <div className={componentStyle["btn-arrow"]}>
+        <div
+          className={componentStyle["btn-arrow"]}
+          onClick={() => {
+            this.props.goAhead();
+          }}
+          style={{ display: this.props.showNext ? "none" : "auto" }}
+        >
           <div>
             <div></div>
           </div>

@@ -12,7 +12,7 @@ function initRenderer(canvas) {
     parseFloat(window.getComputedStyle(canvas).height)
   );
   renderer.setPixelRatio(window.devicePixelRation);
-  renderer.setClearColor(0x000, 0.5);
+  renderer.setClearColor(0xffffff, 1);
   return renderer;
 }
 
